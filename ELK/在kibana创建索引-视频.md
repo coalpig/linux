@@ -1,0 +1,1 @@
+![](attachments/在kibana创建索引.mkv)

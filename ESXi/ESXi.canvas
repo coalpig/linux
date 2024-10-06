@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"e24211f80021e05f","type":"text","text":"vCenter安装至少需要10G内存 ","x":-125,"y":588,"width":383,"height":50},
+		{"id":"2bd80530204542b2","type":"text","text":"![img](images/1723685150508-52e42d52-c00a-46fb-97e5-9faeb05c207c.png)","x":-125,"y":220,"width":480,"height":348},
+		{"id":"e13dff43f7e3e6ea","type":"text","text":"[ESXi安装](linux/ESXi/ESXi安装.md)","x":-125,"y":658,"width":250,"height":60},
+		{"id":"dfbc0c8828528e3e","type":"text","text":"[安装Ubuntu](linux/ESXi/安装Ubuntu.md)","x":-125,"y":888,"width":250,"height":60},
+		{"id":"606ed89eec9a87cd","type":"text","text":"[ESXi扩容磁盘](linux/ESXi/ESXi扩容磁盘.md)","x":-125,"y":738,"width":250,"height":60},
+		{"id":"4baa27c30a4901f1","type":"text","text":"[vCenter安装](linux/ESXi/vCenter安装.md)","x":-125,"y":818,"width":250,"height":50}
+	],
+	"edges":[]
+}

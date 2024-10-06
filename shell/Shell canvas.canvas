@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"67bb20f29a20d92d","type":"file","file":"linux/shell/shell基础.md","x":-353,"y":-942,"width":400,"height":400},
+		{"id":"091a6e889629a409","type":"file","file":"linux/shell/shell基础实践.md","x":47,"y":-942,"width":400,"height":400},
+		{"id":"e91207a21bcdc44b","type":"file","file":"linux/shell/shell变量.md","x":-353,"y":-480,"width":400,"height":400},
+		{"id":"27ea2866b222782c","type":"file","file":"linux/shell/shell条件判断.md","x":-353,"y":-20,"width":400,"height":400},
+		{"id":"d9e71b14b19527ab","type":"file","file":"linux/shell/流程控制if.md","x":-353,"y":440,"width":400,"height":400},
+		{"id":"1bed2e5ebae13acf","type":"file","file":"linux/shell/流程控制while.md","x":-353,"y":920,"width":400,"height":400},
+		{"id":"aa4a03c8214ba04f","type":"file","file":"linux/shell/流程控制for.md","x":-353,"y":1400,"width":400,"height":400},
+		{"id":"01a1ecce84d2f0e4","type":"file","file":"linux/shell/流程控制case.md","x":-353,"y":1880,"width":400,"height":400},
+		{"id":"d3a52f86f630d271","type":"file","file":"linux/shell/shell函数.md","x":-353,"y":2360,"width":400,"height":400},
+		{"id":"182025086072faf5","type":"file","file":"linux/shell/shell数组.md","x":-353,"y":2840,"width":400,"height":400},
+		{"id":"b741b12211c54507","type":"file","file":"linux/shell/shell脚本汇总.md","x":-353,"y":3320,"width":400,"height":400},
+		{"id":"a54cfe1d2ad81db3","type":"file","file":"linux/shell/循环控制break、continue、exit.md","x":200,"y":1000,"width":400,"height":400},
+		{"id":"23045d0d43dee101","type":"file","file":"linux/shell/shell归档.md","x":-1280,"y":469,"width":640,"height":1462}
+	],
+	"edges":[
+		{"id":"e6bf4636d71eb200","fromNode":"d9e71b14b19527ab","fromSide":"right","toNode":"a54cfe1d2ad81db3","toSide":"left"},
+		{"id":"90899974490862b5","fromNode":"1bed2e5ebae13acf","fromSide":"right","toNode":"a54cfe1d2ad81db3","toSide":"left"},
+		{"id":"fb992cea67cff3b0","fromNode":"aa4a03c8214ba04f","fromSide":"right","toNode":"a54cfe1d2ad81db3","toSide":"left"},
+		{"id":"825719f41c15ce84","fromNode":"23045d0d43dee101","fromSide":"right","toNode":"67bb20f29a20d92d","toSide":"left"},
+		{"id":"1a2619f0cecee9db","fromNode":"23045d0d43dee101","fromSide":"right","toNode":"e91207a21bcdc44b","toSide":"left"},
+		{"id":"933858a516c16f15","fromNode":"23045d0d43dee101","fromSide":"right","toNode":"27ea2866b222782c","toSide":"left"},
+		{"id":"83ab7e52e37f14c5","fromNode":"23045d0d43dee101","fromSide":"right","toNode":"d9e71b14b19527ab","toSide":"left"},
+		{"id":"ea6ec57ec369a9a3","fromNode":"23045d0d43dee101","fromSide":"right","toNode":"1bed2e5ebae13acf","toSide":"left"},
+		{"id":"b2735059d447fb2e","fromNode":"23045d0d43dee101","fromSide":"right","toNode":"aa4a03c8214ba04f","toSide":"left"},
+		{"id":"7a6d806a7d04acd9","fromNode":"23045d0d43dee101","fromSide":"right","toNode":"01a1ecce84d2f0e4","toSide":"left"},
+		{"id":"0d7ebd5110d4573f","fromNode":"23045d0d43dee101","fromSide":"right","toNode":"d3a52f86f630d271","toSide":"left"},
+		{"id":"4078f4246901e622","fromNode":"23045d0d43dee101","fromSide":"right","toNode":"182025086072faf5","toSide":"left"},
+		{"id":"b2ab83610e0b186f","fromNode":"23045d0d43dee101","fromSide":"right","toNode":"b741b12211c54507","toSide":"left"}
+	]
+}

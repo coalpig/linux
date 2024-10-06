@@ -1,0 +1,28 @@
+{
+	"nodes":[
+		{"id":"e4ad5767d66ef128","type":"file","file":"linux/Ansible/Ansible介绍.md","x":-200,"y":-280,"width":400,"height":400},
+		{"id":"504787d6f248036d","type":"file","file":"linux/Ansible/Ansible常用模块.md","x":-200,"y":160,"width":400,"height":400},
+		{"id":"25a3e82ba1bc47f5","type":"file","file":"linux/Ansible/Ansible编写NFS脚本.md","x":200,"y":160,"width":400,"height":400},
+		{"id":"261c4bd49aa54451","type":"file","file":"linux/Ansible/Ansible主机清单.md","x":200,"y":-280,"width":400,"height":400},
+		{"id":"9f6277aec8e46d5a","type":"file","file":"linux/Ansible/Ansible剧本介绍.md","x":-200,"y":600,"width":400,"height":400},
+		{"id":"0bbe1b121f2a6dd2","type":"file","file":"linux/Ansible/ansible归档.md","x":-880,"y":160,"width":400,"height":880},
+		{"id":"15fda8da99047346","type":"file","file":"linux/Ansible/Ansible编写Nginx剧本.md","x":600,"y":600,"width":400,"height":400},
+		{"id":"2da5b025d856704c","type":"file","file":"linux/Ansible/Ansible编写NFS剧本.md","x":1000,"y":600,"width":400,"height":400},
+		{"id":"8cfccda15e974b42","type":"file","file":"linux/Ansible/Ansible编写mysql剧本.md","x":1400,"y":600,"width":400,"height":400},
+		{"id":"4c01ab5ce7162776","type":"file","file":"linux/Ansible/Ansible剧本格式.md","x":200,"y":600,"width":400,"height":400},
+		{"id":"b7bf95a5d9a1662d","type":"file","file":"linux/Ansible/Ansible剧本高级特性.md","x":1800,"y":600,"width":400,"height":400},
+		{"id":"ccec713a3dfede5c","type":"file","file":"linux/Ansible/ansible 角色-介绍.md","x":-200,"y":1040,"width":400,"height":400},
+		{"id":"3dc21146a0b8fe7d","type":"file","file":"linux/Ansible/Ansible角色-目录规划.md","x":200,"y":1040,"width":400,"height":400},
+		{"id":"235297506ce7e424","type":"file","file":"linux/Ansible/Ansible角色-编写sshd.md","x":600,"y":1040,"width":400,"height":400},
+		{"id":"60612a93e49374c9","type":"file","file":"linux/Ansible/Ansible角色-编写nfs.md","x":1000,"y":1040,"width":400,"height":400},
+		{"id":"bbef33386e3cc698","type":"file","file":"linux/Ansible/Ansible角色-编写rsync.md","x":1400,"y":1040,"width":400,"height":400},
+		{"id":"4baade347943154f","type":"file","file":"linux/Ansible/Ansible角色-编写lsyncd服务拆分init.md","x":1800,"y":1040,"width":400,"height":400},
+		{"id":"e2921e715291bf7a","type":"file","file":"linux/Ansible/Ansible角色-拆分后的各个服务角色文件.md","x":2200,"y":1040,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"0959242078ef24c9","fromNode":"0bbe1b121f2a6dd2","fromSide":"right","toNode":"e4ad5767d66ef128","toSide":"left"},
+		{"id":"7474733ae65dde66","fromNode":"0bbe1b121f2a6dd2","fromSide":"right","toNode":"504787d6f248036d","toSide":"left"},
+		{"id":"80cc679a129da279","fromNode":"0bbe1b121f2a6dd2","fromSide":"right","toNode":"9f6277aec8e46d5a","toSide":"left"},
+		{"id":"a673e92d8da98b25","fromNode":"0bbe1b121f2a6dd2","fromSide":"right","toNode":"ccec713a3dfede5c","toSide":"left"}
+	]
+}

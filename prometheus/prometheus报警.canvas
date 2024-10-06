@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"10605261610858cc","type":"text","text":"configmap","x":-140,"y":-220,"width":260,"height":60},
+		{"id":"0cfe9aed1649c8ef","type":"text","text":"promethues-config","x":260,"y":-120,"width":250,"height":60},
+		{"id":"df7ca058b37fa6d8","type":"text","text":"prometheus-rule","x":260,"y":-320,"width":250,"height":60},
+		{"id":"344941b5d3c2b740","type":"text","text":"```\nrules.yml: |\n    groups:\n    - name: node-exporter\n      rules:\n      - alert: NodeFilesystemSpaceLow\n        expr: |\n          node_filesystem_avail_bytes{mountpoint=\"/\"} / node_filesystem_size_bytes{mountpoint=\"/\"} * 100 < 70\n        for: 10s\n        labels:\n          alertname: NodeFilesystemSpaceLow\n          namespace: monitoring\n          severity: info\n        annotations:\n          summary: \"Info: Filesystem space is below 90% on {{ $labels.instance }}\"\n          description: \"Filesystem on {{ $labels.device }} at {{ $labels.instance }} has less than 90% available space.\"\n      - alert: NodeFilesystemSpaceLow\n        expr: |\n          node_filesystem_avail_bytes{mountpoint=\"/\"} / node_filesystem_size_bytes{mountpoint=\"/\"} * 100 < 60\n        for: 10s\n        labels:\n          alertname: NodeFilesystemSpaceLow\n          namespace: monitoring\n          severity: warning\n        annotations:\n          summary: \"Warning: Filesystem space is below 80% on {{ $labels.instance }}\"\n          description: \"Filesystem on {{ $labels.device }} at {{ $labels.instance }} has less than 80% available space.\"\n      - alert: NodeFilesystemSpaceLow\n        expr: |\n          node_filesystem_avail_bytes{mountpoint=\"/\"} / node_filesystem_size_bytes{mountpoint=\"/\"} * 100 < 45\n        for: 10s\n        labels:\n          alertname: NodeFilesystemSpaceLow\n          namespace: monitoring\n          severity: critical\n        annotations:\n          summary: \"Critical: Filesystem space is below 70% on {{ $labels.instance }}\"\n          description: \"Filesystem on {{ $labels.device }} at {{ $labels.instance }} has less than 70% available space.\"\n```","x":740,"y":-1000,"width":1000,"height":876},
+		{"id":"551a483fa45e2dd6","type":"text","text":"  prometheus.yml: |\n    global:\n      scrape_interval: 15s\n      scrape_timeout: 15s\n      evaluation_interval: 30s\n    alerting:\n      alertmanagers:\n      - static_configs:\n        - targets: [\"alertmanager:9093\"]","x":740,"y":80,"width":250,"height":155},
+		{"id":"fcee292d012b2f58","type":"text","text":"首先需要先安装prometheus并且prometheus能采集exporter","x":-540,"y":-240,"width":250,"height":80},
+		{"id":"32828d050a557a3a","type":"text","text":"先要运行exporter间接采集\n\n以node举例","x":-920,"y":-220,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"afb9b2247c94e3e7","fromNode":"fcee292d012b2f58","fromSide":"right","toNode":"10605261610858cc","toSide":"left"},
+		{"id":"e77c09a431467f66","fromNode":"10605261610858cc","fromSide":"right","toNode":"df7ca058b37fa6d8","toSide":"left"},
+		{"id":"58060fc7e3372fac","fromNode":"10605261610858cc","fromSide":"right","toNode":"0cfe9aed1649c8ef","toSide":"left"},
+		{"id":"be64e553b141d960","fromNode":"0cfe9aed1649c8ef","fromSide":"right","toNode":"551a483fa45e2dd6","toSide":"left"},
+		{"id":"822d2ac0a67fdda4","fromNode":"df7ca058b37fa6d8","fromSide":"right","toNode":"344941b5d3c2b740","toSide":"left"},
+		{"id":"3e8ef0d788d62302","fromNode":"32828d050a557a3a","fromSide":"right","toNode":"fcee292d012b2f58","toSide":"left"}
+	]
+}

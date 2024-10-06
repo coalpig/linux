@@ -1,0 +1,5 @@
+客户通过windows在经过运营商DNS解析后拿到服务器ip后
+首先经过ingress处理http将请求的域名转发到正确的svc中,找的时候是会找整个集群的svc
+svc通过定义虚拟的clusterIP实现pod的负载均衡
+
+

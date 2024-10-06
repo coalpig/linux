@@ -1,0 +1,4 @@
+```
+SHOW CREATE DATABASE abc;  
+ALTER DATABASE oldya CHARSET utf8mb4;
+```

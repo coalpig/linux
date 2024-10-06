@@ -1,0 +1,1 @@
+![](attachments/kibana管理隐藏的索引.mkv)

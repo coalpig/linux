@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"1979299f876adf25","type":"file","file":"linux/tomcat/OpenJDK安装.md","x":-170,"y":280,"width":400,"height":400},
+		{"id":"de034c05dce5d9f9","type":"file","file":"linux/tomcat/Tomcat安装.md","x":-170,"y":720,"width":400,"height":400},
+		{"id":"b8f818173eff80ee","type":"file","file":"linux/tomcat/tomcat归档.md","x":-720,"y":220,"width":400,"height":520},
+		{"id":"73704fdc04169062","type":"file","file":"linux/tomcat/Tomcat基础.md","x":-170,"y":-160,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"cae05902173cec07","fromNode":"b8f818173eff80ee","fromSide":"right","toNode":"73704fdc04169062","toSide":"left"},
+		{"id":"1e0e64545358cb76","fromNode":"b8f818173eff80ee","fromSide":"right","toNode":"1979299f876adf25","toSide":"left"},
+		{"id":"0e47431f0128ba01","fromNode":"b8f818173eff80ee","fromSide":"right","toNode":"de034c05dce5d9f9","toSide":"left"}
+	]
+}

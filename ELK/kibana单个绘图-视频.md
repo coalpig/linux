@@ -1,0 +1,1 @@
+![](attachments/kibana单个绘图展示日志.mkv)

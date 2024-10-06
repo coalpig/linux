@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"65fe54794eebe1a2","type":"file","file":"linux/ElasticSearch/ElasticSearch单节点安装.md","x":-760,"y":0,"width":400,"height":400},
+		{"id":"7c19ef14af407a0f","type":"file","file":"linux/ElasticSearch/ElasticSearch配置.md","x":-360,"y":0,"width":400,"height":400},
+		{"id":"1a689b01e5701499","type":"file","file":"linux/ElasticSearch/ElasticSearch介绍.md","x":-1160,"y":0,"width":400,"height":400},
+		{"id":"1ed0dd99896e1683","type":"file","file":"linux/ElasticSearch/Elasticsearch插件安装.md","x":-760,"y":440,"width":400,"height":400},
+		{"id":"1cbf935e35821400","type":"file","file":"linux/ElasticSearch/kibana安装.md","x":-1160,"y":440,"width":400,"height":400},
+		{"id":"7be8623ca0712494","type":"file","file":"linux/ElasticSearch/Elasticsearch查询命令.md","x":-760,"y":880,"width":400,"height":400},
+		{"id":"3f4bca75edaef854","type":"file","file":"linux/ElasticSearch/Elasticsearch更新命令.md","x":-360,"y":880,"width":400,"height":400},
+		{"id":"38357c0ee2f8c880","type":"file","file":"linux/ElasticSearch/Elasticsearch插入命令.md","x":-1160,"y":880,"width":400,"height":400},
+		{"id":"a5a23d6708d5c7b9","x":-760,"y":1360,"width":400,"height":400,"type":"file","file":"linux/ElasticSearch/Elasticsearch集群部署.md"},
+		{"id":"43aad5f538b12b28","x":-360,"y":1360,"width":400,"height":400,"type":"file","file":"linux/ElasticSearch/Elasticsearch集群扩容.md"},
+		{"id":"deb5f8f12a28788b","x":-1160,"y":1360,"width":400,"height":400,"type":"file","file":"linux/ElasticSearch/Elasticsearch集群概念介绍.md"},
+		{"id":"d3c573eb258d20f3","x":440,"y":1360,"width":400,"height":400,"type":"file","file":"linux/ElasticSearch/Elasticsearch监控.md"},
+		{"id":"60264b94564496d0","x":40,"y":1360,"width":400,"height":400,"type":"file","file":"linux/ElasticSearch/Elasticsearch集群维护.md"},
+		{"id":"0b6c38192995263e","x":-760,"y":1840,"width":400,"height":400,"type":"file","file":"linux/ElasticSearch/ElasticSearch热更新中文分词库.md"},
+		{"id":"66a4daddeee7f893","x":-1160,"y":1840,"width":400,"height":400,"type":"file","file":"linux/ElasticSearch/ElasticSearch配置中文分词器.md"},
+		{"id":"a515ea80674058da","x":-760,"y":2320,"width":400,"height":400,"type":"file","file":"linux/ElasticSearch/第三方工具elasticdump备份恢复ES.md"},
+		{"id":"2874db3a6a8a409c","x":-1160,"y":2320,"width":400,"height":400,"type":"file","file":"linux/ElasticSearch/ElasticSearch部署自带的备份恢复.md"},
+		{"id":"535b0fc2c3adfa6d","type":"file","file":"linux/ElasticSearch/ElasticSearch归档.md","x":-2160,"y":840,"width":240,"height":940},
+		{"id":"b71edcb30affc2c3","x":-1157,"y":2762,"width":400,"height":400,"type":"file","file":"linux/ElasticSearch/ElasticSearch安全认证.md"},
+		{"id":"07edf0129af012a0","x":-757,"y":2762,"width":400,"height":400,"type":"file","file":"linux/ElasticSearch/ElasticSearch优化.md"}
+	],
+	"edges":[
+		{"id":"d2d477036479c741","fromNode":"535b0fc2c3adfa6d","fromSide":"right","toNode":"1a689b01e5701499","toSide":"left","label":"ES基础"},
+		{"id":"da847d38cc5425e0","fromNode":"535b0fc2c3adfa6d","fromSide":"right","toNode":"1cbf935e35821400","toSide":"left","label":"管理工具"},
+		{"id":"3c5cf9bd117fa12c","fromNode":"535b0fc2c3adfa6d","fromSide":"right","toNode":"38357c0ee2f8c880","toSide":"left","label":"ES常用命令"},
+		{"id":"ea675525fd662c47","fromNode":"535b0fc2c3adfa6d","fromSide":"right","toNode":"deb5f8f12a28788b","toSide":"left","label":"ES集群"},
+		{"id":"86aed89126b687cc","fromNode":"535b0fc2c3adfa6d","fromSide":"right","toNode":"66a4daddeee7f893","toSide":"left","label":"中文分词器"},
+		{"id":"4ae11a9d64898059","fromNode":"535b0fc2c3adfa6d","fromSide":"right","toNode":"2874db3a6a8a409c","toSide":"left"}
+	]
+}

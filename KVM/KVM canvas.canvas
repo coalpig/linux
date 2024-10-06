@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"60ea20cdb72aa785","type":"text","text":"[什么是虚拟化](linux/KVM/什么是虚拟化.md)","x":-100,"y":-80,"width":250,"height":60},
+		{"id":"47fad46ff6693f21","type":"text","text":"[报错管理](linux/KVM/报错管理.md)","x":300,"y":47,"width":250,"height":60},
+		{"id":"685a3fb222421112","type":"text","text":"[创建并安装一台KVM虚拟机](linux/KVM/创建并安装一台KVM虚拟机.md)","x":-100,"y":0,"width":250,"height":60},
+		{"id":"a166da1844487088","x":-100,"y":160,"width":250,"height":60,"type":"text","text":"[生产故障-注意使用情况](生产故障-注意使用情况.md)"},
+		{"id":"1ba1bd4b32b04c7e","x":-100,"y":80,"width":250,"height":60,"type":"text","text":"[KVM命令](linux/KVM/KVM命令.md)"}
+	],
+	"edges":[]
+}

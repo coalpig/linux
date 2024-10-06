@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"id":"e1e12ae06764b498","type":"file","file":"linux/CI&CD/CI&CD开发项目生命周期.md","x":280,"y":-71,"width":400,"height":400},
+		{"id":"89580bbdc9693e58","type":"file","file":"linux/CI&CD/CI&CD准备环境.md","x":680,"y":-71,"width":400,"height":400},
+		{"id":"af3e62c7999ba0a1","type":"file","file":"linux/CI&CD/CI&CD归档.md","x":-480,"y":-71,"width":400,"height":991},
+		{"id":"f7124695fc523c82","type":"file","file":"linux/CI&CD/gitlab实战.md","x":680,"y":800,"width":400,"height":400},
+		{"id":"0c60d13c735a7803","type":"file","file":"linux/CI&CD/gitlab安装部署.md","x":280,"y":800,"width":400,"height":400},
+		{"id":"798518b6f18492a9","type":"file","file":"linux/CI&CD/git安装配置和初始化.md","x":280,"y":360,"width":400,"height":400},
+		{"id":"1fb79e758308cb08","type":"file","file":"linux/CI&CD/git初始化.md","x":680,"y":360,"width":400,"height":400},
+		{"id":"c94172a14102ad43","type":"file","file":"linux/CI&CD/git重要概念和属性.md","x":1080,"y":360,"width":400,"height":400},
+		{"id":"d3efac53582b54ec","type":"file","file":"linux/CI&CD/Jenkins安装部署.md","x":280,"y":1240,"width":400,"height":400},
+		{"id":"38acfeebdc628106","type":"file","file":"linux/CI&CD/Jenkins系统管理.md","x":680,"y":1240,"width":400,"height":400},
+		{"id":"69db470a3bab8d79","type":"file","file":"linux/CI&CD/Jenkins与Gitlab集成.md","x":1080,"y":1240,"width":400,"height":400},
+		{"id":"f2ecff96c28fa3c0","type":"file","file":"linux/CI&CD/Jenkins参数化构建.md","x":1480,"y":1240,"width":400,"height":400},
+		{"id":"7d10586c0c1efb0a","type":"file","file":"linux/CI&CD/Jenkins构建工具集成.md","x":1880,"y":1240,"width":400,"height":400},
+		{"id":"f89095ba0d45831f","type":"file","file":"linux/CI&CD/Jenkins CI&CD拆分.md","x":3080,"y":1240,"width":400,"height":400},
+		{"id":"c61cc09d1f5a92f4","type":"file","file":"linux/CI&CD/Jenkins Pipeline流水线.md","x":280,"y":1680,"width":400,"height":400},
+		{"id":"732fd9aef437a0d1","type":"file","file":"linux/CI&CD/Jenkins Pipeline共享库.md","x":680,"y":1680,"width":400,"height":400},
+		{"id":"d25b3af9f05c03e5","type":"file","file":"linux/CI&CD/git基本命令的使用.md","x":1480,"y":360,"width":400,"height":400},
+		{"id":"89bddc40c147a637","type":"file","file":"linux/CI&CD/git关于分支.md","x":1880,"y":360,"width":400,"height":400},
+		{"id":"282fa6a51d76461a","type":"file","file":"linux/CI&CD/git标签的使用.md","x":2280,"y":360,"width":400,"height":400},
+		{"id":"d8e1c85c7b9ef772","type":"file","file":"linux/CI&CD/git总结.md","x":2680,"y":360,"width":400,"height":400},
+		{"id":"ee4f8cc373129862","type":"file","file":"linux/CI&CD/Jenkins与SonarQube集成.md","x":2280,"y":1240,"width":400,"height":400},
+		{"id":"a46e4555eafcc88b","type":"file","file":"linux/CI&CD/Jenkins与Nexus集成.md","x":2680,"y":1240,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"0710c2b7eacf6f7c","fromNode":"af3e62c7999ba0a1","fromSide":"right","toNode":"e1e12ae06764b498","toSide":"left"},
+		{"id":"b50cd449b338f26c","fromNode":"af3e62c7999ba0a1","fromSide":"right","toNode":"798518b6f18492a9","toSide":"left"},
+		{"id":"839a555bb0b78a08","fromNode":"af3e62c7999ba0a1","fromSide":"right","toNode":"0c60d13c735a7803","toSide":"left"},
+		{"id":"b2591fb6f021c5ac","fromNode":"af3e62c7999ba0a1","fromSide":"right","toNode":"d3efac53582b54ec","toSide":"left"},
+		{"id":"342a899ab625e536","fromNode":"af3e62c7999ba0a1","fromSide":"right","toNode":"c61cc09d1f5a92f4","toSide":"left"}
+	]
+}
